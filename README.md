@@ -1,5 +1,5 @@
 # Calculadora astronomía
-Práctica realizada para la asignatura de "Astronomía y Geodesia" en el curso 2022-23. Consiste en una calculadora de los tiempos de visibilidad de un determinado cuerpo para todos los días del año, tomando como punto de observación el observatorio de La Palma.
+Práctica realizada para la asignatura de "Astronomía y Geodesia" en el curso 2022-23. Consiste en una calculadora de los tiempos de visibilidad del par de galaxias [ARP273](http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Arp+273) para todos los días del año, tomando como punto de observación el observatorio de La Palma.
 
 La función principal es visibility_hours(), que se encarga de realizar todos los cálculos que llevamos a cabo para el caso concreto del 21 de diciembre, solo que para todos los días del año, y va guardando las horas de comienzo y fin de visibilidad en una lista. Cada elemento de la lista es una lista de tuplas (pares), para representar los intervalos de visibilidad de ese día. 
 
